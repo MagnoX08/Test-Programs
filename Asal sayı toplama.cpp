@@ -1,10 +1,10 @@
 #include <stdio.h>
 #include <conio.h>
 #include <locale.h>
-                   //By:Kayra Yer\\
+
 int main() 
 {
-    
+    //By:Kayra Yer
     setlocale(LC_ALL, "Turkish"); 
 
     int sayi1, sayi2;
@@ -60,5 +60,6 @@ int main()
     printf("\n\nBu aralıktaki asal sayıların toplamı: %d\n", toplam);
     getch();
 	}
+
 
 
