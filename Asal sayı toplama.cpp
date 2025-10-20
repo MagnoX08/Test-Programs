@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <conio.h>
 #include <locale.h>
-
-int main() {
+                   //By:Kayra Yer\\
+int main() 
+{
     
     setlocale(LC_ALL, "Turkish"); 
 
@@ -13,10 +14,10 @@ int main() {
     int temp;
 
     
-    printf("Birinci sayıyı giriniz: ");
+    printf("Birinci sayÃ½yÃ½ giriniz: ");
     scanf("%d", &sayi1);
 
-    printf("İkinci sayıyı giriniz: ");
+    printf("Ãkinci sayÃ½yÃ½ giriniz: ");
     scanf("%d", &sayi2);
 
     if (sayi1 > sayi2) 
@@ -26,7 +27,7 @@ int main() {
         sayi2 = temp;
     }
 
-    printf("\n%d ve %d arasındaki asal sayılar: ", sayi1, sayi2);
+    printf("\n%d ve %d arasÃ½ndaki asal sayÃ½lar: ", sayi1, sayi2);
 
     for (i = sayi1; i <= sayi2; i++) 
 	{
@@ -56,6 +57,7 @@ int main() {
             toplam = toplam + i;
         }
     }
-    printf("\n\nBu aralıktaki asal sayıların toplamı: %d\n", toplam);
+    printf("\n\nBu aralÃ½ktaki asal sayÃ½larÃ½n toplamÃ½: %d\n", toplam);
     getch();
 	}
+
