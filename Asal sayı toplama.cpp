@@ -14,10 +14,10 @@ int main()
     int temp;
 
     
-    printf("Birinci sayýyý giriniz: ");
+    printf("Birinci sayıyı giriniz: ");
     scanf("%d", &sayi1);
 
-    printf("Ýkinci sayýyý giriniz: ");
+    printf("İkinci sayıyı giriniz: ");
     scanf("%d", &sayi2);
 
     if (sayi1 > sayi2) 
@@ -27,7 +27,7 @@ int main()
         sayi2 = temp;
     }
 
-    printf("\n%d ve %d arasýndaki asal sayýlar: ", sayi1, sayi2);
+    printf("\n%d ve %d arasındaki asal sayılar: ", sayi1, sayi2);
 
     for (i = sayi1; i <= sayi2; i++) 
 	{
@@ -57,7 +57,8 @@ int main()
             toplam = toplam + i;
         }
     }
-    printf("\n\nBu aralýktaki asal sayýlarýn toplamý: %d\n", toplam);
+    printf("\n\nBu aralıktaki asal sayıların toplamı: %d\n", toplam);
     getch();
 	}
+
 
